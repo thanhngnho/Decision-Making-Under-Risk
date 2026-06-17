@@ -14,3 +14,26 @@ SOO whats the root that I want to firgure it out?
 even though, option B has a higher expected value ($6 vs $5). But a lots of people still pick A?
 - WHY? you will find an answer in this project
 
+SOO what the project actually does? REALLY simple
+1. use survey data
+2. train
+3. output the model
+
+File Breakdown
+- generate_data.py (creates rows of survey data)
+- analysis.py (train the model + charts)
+- bayesian_model.py (check how confident, like uncertainty, the model is)
+
+- data.csv (DISCLAIMER: this is AI generated data to test the model)
+- eda_pilots.png (charts data)
+- model_results.png (how well the model did)
+- prospect_theory.png (explaining the psychology behind it)
+
+How to utilize this project
+Install the libraries first (only need to do this once):
+        pip install pandas numpy matplotlib seaborn scikit-learn
+
+Then use your own data.cvs and running the training model in order of:
+1. python generate_data.py
+2. python analysis.py
+3. python bayesian_model.py
