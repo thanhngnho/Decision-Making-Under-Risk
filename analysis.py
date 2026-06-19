@@ -2,25 +2,25 @@
 # run this after generate_data.py
 # does: explore data, train model, make plots
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+import pandas as pd # pandas = handles tables and spreadsheets
+import numpy as np # numpy = math
+import matplotlib.pyplot as plt # matplotlib = make charts and graphs
 import seaborn as sns
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.linear_model import LogisticRegression
+
+# sklearn = machine learning libarary 
+from sklearn.model_selection import train_test_split, cross_val_score # 
+from sklearn.linear_model import LogisticRegression # use to predict risk vs safe choice
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.metrics import (
     classification_report, confusion_matrix,
     roc_auc_score, roc_curve, ConfusionMatrixDisplay
 )
+
+# warnings = ignore small non matter warning so code keep running 
 import warnings
 warnings.filterwarnings("ignore")
 
-sns.set_theme(style="whitegrid", palette="muted")
-plt.rcParams.update({"figure.dpi": 120, "font.size": 11})
-
-
-# load the data
+# load the data from nthe collecred data
 df = pd.read_csv("data.csv")
 
 print("=== DATA OVERVIEW ===")
