@@ -102,6 +102,18 @@ This runs 1000 bootstrap iterations to check if each predictor is actually signi
 ## Deployment
  
 This is a research/analysis project — not a web app. To use with real survey data, replace `data.csv` with your actual responses using the same column format and re-run `analysis.py`. No code changes needed.
+
+## Summary (With Generated Survey Response, Approx Number)
+
+This project looked at how people choose between a guaranteed reward  and a risky one. Using a logistic regression model trained on 500 simulated participants, I found that:
+
+- loss aversion was the strongest predictor — people who hate losing 
+  almost always picked the safe option
+- risk tolerance was the second biggest factor
+- income basically didn't matter
+- the model hit a ROC-AUC of 0.674 on test data
+
+In order to know the accurate number, reolace the fake data with real survey responses and seeing if these patterns actually hold up with real people.
  
 ## Built With
  
