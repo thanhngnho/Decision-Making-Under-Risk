@@ -1,6 +1,6 @@
 # Decision Making Under Risk 
  
-I was sitting in my Principles of Economics class at Columbia. 8:40am MW. I might not remember a single thing my professor said. But one thing actually stuck with me — why do people make irrational financial decisions? Like why would someone pick a guaranteed $5 over a 50% chance at $12? The math says take the risk. But most people don't. That got me curious enough to actually build something :)
+I was sitting in my Principles of Economics class at Columbia. 8:40am MW. I might not remember a single thing my professor said. But one thing actually stuck with me — why do people make irrational financial decisions? Like why would someone pick a guaranteed $5 over a 50% chance at $12? The math says take the risk. But most people don't. And one random day in April, 2026, it got me curious enough to actually build something :)
  
 ## Getting Started
  
