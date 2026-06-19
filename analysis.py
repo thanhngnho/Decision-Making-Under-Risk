@@ -126,7 +126,7 @@ df_model["ev_advantage"] = df_model["ev_risky"] - df_model["sure_amount"]
 df_model["gender_enc"] = LabelEncoder().fit_transform(df_model["gender"])
 df_model["edu_enc"]    = LabelEncoder().fit_transform(df_model["education"])
 df_model["income_enc"] = df_model["income"].map({
-    "<$20k": 0, "$20k-50k": 1, "$50k-100k": 2, "$100k+": 3
+    "<$20k": 0, "$20k–50k": 1, "$50k–100k": 2, "$100k+": 3
 })
 
 FEATURES = [
