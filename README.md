@@ -125,6 +125,8 @@ In order to know the accurate number, reolace the fake data with real survey res
 ## Authors
  
 * **Thanh Ho** - [thanhngnho](https://github.com/thanhngnho)
+* **Benjamin Le**
+
 ## Acknowledgments
  
 * Kahneman & Tversky (1979) — Prospect Theory, the foundation of this whole project
